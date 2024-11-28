@@ -13,7 +13,7 @@ const displayCatogry= async()=>{
         return`
         <div class="category">
         <p>${ele}</p>
-        <a href="../pages/catogroy.html?catgory=${ele}">details</a></div>`
+        <a href="../catogroy.html?catgory=${ele}">details</a></div>`
     }).join("");
     document.querySelector(".container .catogray-cont").innerHTML=result;}
     catch(err){
